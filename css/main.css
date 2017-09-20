@@ -1,27 +1,29 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+.wrapper {
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
     color: #2d3c49;
     margin: 0;
 }
 
-header {
+.myheader {
     font-size: 50px;
-
+    width: 100%;
 }
 
-header .name {
+.name {
     float: right;
     margin-right: 30px;
 }
 
 
-header .name h1 {
+.name h1 {
     font-size: 28px;
     margin-bottom: 5px;
 }
 
-header .name h2 {
+.name h2 {
     font-size: 16px;
     text-align: right;
     margin-top: 0;
@@ -35,7 +37,7 @@ header .name h2 {
 }
 
 
-header .logo {
+.logo {
     float: left;
     height: 40px;
     width: auto;
@@ -46,6 +48,7 @@ header .logo {
     color: #7d97ad;
     border-width: 2px;
     border-style: solid;
+    width: 100%;
 }
 
 .image {
@@ -53,18 +56,17 @@ header .logo {
 }
 
 .cover-img {
-    height: 50%;;
     width: 100%;
     box-sizing: border-box;
 }
 
 .featured {
     width: 100%;
-    min-width: 350px;
+    min-width: 300px;
     margin-bottom: 40px;
 }
 
-.featured h3{
+.featured h3 {
     width: 220px;
     font-size: 30px;
     margin: auto;
@@ -75,7 +77,6 @@ header .logo {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
 }
 
 .feat-img {
